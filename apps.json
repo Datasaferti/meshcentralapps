@@ -3,18 +3,39 @@
     "name": "Mozilla Firefox",
     "description": "Navegador web",
     "platforms": ["win32"],
-    "command": "firefox"
+    "install": {
+      "type": "choco",
+      "command": "firefox"
+    },
+    "uninstall": {
+      "type": "choco",
+      "command": "firefox"
+    }
   },
   "7zip": {
     "name": "7-Zip",
     "description": "Compactador de arquivos",
     "platforms": ["win32"],
-    "command": "7zip"
+    "install": {
+      "type": "choco",
+      "command": "7zip"
+    },
+    "uninstall": {
+      "type": "choco",
+      "command": "7zip"
+    }
   },
   "notepadplusplus": {
     "name": "Notepad++",
     "description": "Editor de texto",
     "platforms": ["win32"],
-    "command": "notepadplusplus"
+    "install": {
+      "type": "choco",
+      "command": "notepadplusplus"
+    },
+    "uninstall": {
+      "type": "choco",
+      "command": "notepadplusplus"
+    }
   }
 }
