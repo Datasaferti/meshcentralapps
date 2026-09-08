@@ -1,0 +1,20 @@
+{
+  "firefox": {
+    "name": "Mozilla Firefox",
+    "description": "Navegador web",
+    "type": "choco",
+    "command": "firefox"
+  },
+  "7zip": {
+    "name": "7-Zip",
+    "description": "Compactador de arquivos",
+    "type": "choco",
+    "command": "7zip"
+  },
+  "notepadplusplus": {
+    "name": "Notepad++",
+    "description": "Editor de texto",
+    "type": "choco",
+    "command": "notepadplusplus"
+  }
+}
