@@ -1,41 +1,17 @@
-{
-  "firefox": {
-    "name": "Mozilla Firefox",
-    "description": "Navegador web",
-    "platforms": ["win32"],
-    "install": {
-      "type": "choco",
-      "command": "firefox"
-    },
-    "uninstall": {
-      "type": "choco",
-      "command": "firefox"
-    }
+[
+  {
+    "name": "7zip",
+    "desc": "7-Zip – Compactador de arquivos",
+    "cmd": "choco install 7zip -y"
   },
-  "7zip": {
-    "name": "7-Zip",
-    "description": "Compactador de arquivos",
-    "platforms": ["win32"],
-    "install": {
-      "type": "choco",
-      "command": "7zip"
-    },
-    "uninstall": {
-      "type": "choco",
-      "command": "7zip"
-    }
+  {
+    "name": "winrar",
+    "desc": "WinRAR – Compactador de arquivos",
+    "cmd": "choco install winrar -y"
   },
-  "notepadplusplus": {
-    "name": "Notepad++",
-    "description": "Editor de texto",
-    "platforms": ["win32"],
-    "install": {
-      "type": "choco",
-      "command": "notepadplusplus"
-    },
-    "uninstall": {
-      "type": "choco",
-      "command": "notepadplusplus"
-    }
+  {
+    "name": "googlechrome",
+    "desc": "Google Chrome – Navegador web",
+    "cmd": "choco install googlechrome -y"
   }
-}
+]
